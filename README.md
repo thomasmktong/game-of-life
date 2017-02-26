@@ -11,15 +11,13 @@ This is a *multiplayer* Web app version of [Conway’s Game of Life](https://en.
 
 This app used **Socket.io** for realtime communication and **ReactJS** for its speed (Virtual DOM) and modular design. A module is shared between the front and back end for logic in common.
 
-## Try it Online
+## Try it
 
-[Demo Site on Heroku](https://sleepy-lowlands-62986.herokuapp.com/)
-
-## Run in Local
+- [Demo Site on Heroku](https://sleepy-lowlands-62986.herokuapp.com/)
+- Run the following and view the site in [http://localhost:9000/](http://localhost:9000/)
 
 ```
 git clone https://github.com/thomasmktong/game-of-life.git
-
 cd game-of-life
 npm install
 node server/app.js
