@@ -1,0 +1,35 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "Game of Life Multiplayer",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasmktong/game-of-life.git"
+  },
+  "keywords": [
+    "Game",
+    "of",
+    "Life",
+    "Multiplayer"
+  ],
+  "author": "Thomas Tong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasmktong/game-of-life/issues"
+  },
+  "dependencies": {
+    "react-scripts": "0.9.0",
+    "clone-deep": "^0.2.4",
+    "express": "^4.14.1",
+    "randomcolor": "^0.4.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "socket.io": "^1.7.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "postinstall": "react-scripts build",
+    "server": "react-scripts build && node server/app.js"
+  }
+}
