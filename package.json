@@ -25,11 +25,15 @@
     "randomcolor": "^0.4.4",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "socket.io": "^1.7.3"
+    "socket.io": "^2.0.0",
+    "snyk": "^1.30.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "postinstall": "react-scripts build",
-    "server": "react-scripts build && node server/app.js"
-  }
+    "server": "react-scripts build && node server/app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
