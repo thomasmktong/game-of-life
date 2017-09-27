@@ -21,3 +21,8 @@ patch:
         patched: '2017-05-23T23:14:20.090Z'
     - react-scripts > webpack-dev-server > serve-index > debug > ms:
         patched: '2017-05-23T23:14:20.090Z'
+  'npm:debug:20170905':
+    - react-scripts > webpack-dev-server > compression > debug:
+        patched: '2017-09-26T23:14:16.953Z'
+    - react-scripts > webpack-dev-server > serve-index > debug:
+        patched: '2017-09-26T23:14:16.953Z'
