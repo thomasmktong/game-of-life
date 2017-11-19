@@ -19,7 +19,7 @@
     "url": "https://github.com/thomasmktong/game-of-life/issues"
   },
   "dependencies": {
-    "react-scripts": "1.0.0",
+    "react-scripts": "1.0.15",
     "clone-deep": "^0.2.4",
     "express": "^4.14.1",
     "randomcolor": "^0.4.4",
