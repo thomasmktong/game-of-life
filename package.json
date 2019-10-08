@@ -26,7 +26,7 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "socket.io": "^2.0.0",
-    "snyk": "^1.41.1"
+    "snyk": "^1.232.0"
   },
   "scripts": {
     "start": "react-scripts start",
